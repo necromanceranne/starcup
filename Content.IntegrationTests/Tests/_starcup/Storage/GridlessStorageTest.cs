@@ -18,7 +18,7 @@ namespace Content.IntegrationTests.Tests._starcup.Storage;
 public sealed class GridlessStorageTest
 {
     [Test, TestCaseSource(typeof(PostMapInitTest), nameof(GameMaps))]
-    public async Task GameMapsLoadableTest(string mapProto)
+    public async Task GridlessContainersTest(string mapProto)
     {
         await using var pair = await PoolManager.GetServerClient(new PoolSettings
         {
