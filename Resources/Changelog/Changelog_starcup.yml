@@ -1262,3 +1262,12 @@
   id: 8208
   time: '2025-09-25T01:04:29.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/474
+- author: little-meow-meow
+  changes:
+  - message: Paramedics now have Paramedic access.
+    type: Fix
+  - message: Paramedic locker requires Paramedic access.
+    type: Fix
+  id: 8209
+  time: '2025-09-25T01:24:30.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/476
