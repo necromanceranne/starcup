@@ -1238,3 +1238,36 @@
   id: 8205
   time: '2025-09-21T05:13:31.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/466
+- author: teamstarcup-bot
+  changes:
+  - message: Atmospherics Beret added to loadouts. Fight fires AND be fashionable!
+    type: Add
+  id: 8206
+  time: '2025-09-24T01:18:02.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/473
+- author: KoboldCatgirl
+  changes:
+  - message: Saltern safety/QOL improvements
+    type: Tweak
+  - message: Fixed some new and old Saltern bugs
+    type: Fix
+  id: 8207
+  time: '2025-09-24T23:57:46.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/475
+- author: princesspengy
+  changes:
+  - message: cocktails with absinthe (except bacchus's) have had their ethanol content
+      very, very slightly increased to match absinthe's slight bump in ethanol
+    type: Tweak
+  id: 8208
+  time: '2025-09-25T01:04:29.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/474
+- author: little-meow-meow
+  changes:
+  - message: Paramedics now have Paramedic access.
+    type: Fix
+  - message: Paramedic locker requires Paramedic access.
+    type: Fix
+  id: 8209
+  time: '2025-09-25T01:24:30.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/476
