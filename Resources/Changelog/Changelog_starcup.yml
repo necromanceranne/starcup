@@ -1333,3 +1333,11 @@
   id: 8217
   time: '2025-09-28T19:59:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/438
+- author: deltanedas, sleepyapril, foxcurl
+  changes:
+  - message: Dangerous vent critters will now only emerge from specific vents, accompanied
+      by an alert to clear the area. (DeltaV port.)
+    type: Tweak
+  id: 8218
+  time: '2025-09-28T20:08:21.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/478
