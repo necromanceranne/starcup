@@ -1311,3 +1311,17 @@
   id: 8214
   time: '2025-09-28T19:27:27.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/479
+- author: little-meow-meow
+  changes:
+  - message: New 'fizz' emote for slimes!
+    type: Add
+  id: 8215
+  time: '2025-09-28T19:54:23.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/456
+- author: teamstarcup-bot
+  changes:
+  - message: Blink emote, with sound, in the General emote category.
+    type: Add
+  id: 8216
+  time: '2025-09-28T19:54:54.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/421
