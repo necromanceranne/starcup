@@ -1348,3 +1348,14 @@
   id: 8219
   time: '2025-09-28T21:12:51.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/482
+- author: teamstarcup-bot
+  changes:
+  - message: Added electric piano and a few pads sounds to the synthesizer.
+    type: Tweak
+  - message: Added square wave and a lead to the minimoog.
+    type: Tweak
+  - message: DAWs give off a bit of light and can be RGBd!
+    type: Tweak
+  id: 8220
+  time: '2025-09-28T23:24:13.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/462
