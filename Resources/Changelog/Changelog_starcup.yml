@@ -1296,3 +1296,11 @@
   id: 8212
   time: '2025-09-28T18:34:30.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/477
+- author: teamstarcup-bot
+  changes:
+  - message: 'New emotes: Lizards can hiss, slimes can bubble and pop, and everyone
+      can crack their knuckles.'
+    type: Add
+  id: 8213
+  time: '2025-09-28T19:16:42.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/453
