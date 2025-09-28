@@ -1341,3 +1341,10 @@
   id: 8218
   time: '2025-09-28T20:08:21.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/478
+- author: little-meow-meow
+  changes:
+  - message: Atmos beret is now selectable for atmos technician loadouts.
+    type: Fix
+  id: 8219
+  time: '2025-09-28T21:12:51.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/482
