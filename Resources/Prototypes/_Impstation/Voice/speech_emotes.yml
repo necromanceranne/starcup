@@ -1,4 +1,20 @@
 # vocal emotes
+
+# begin starcup: removed
+#- type: emote
+#  id: Wuhey
+#  name: chat-emote-name-wuhey
+#  category: Vocal
+#  icon: _Impstation/Interface/Emotes/wuhey.png
+#  chatMessages: ["chat-emote-msg-wuhey"]
+#
+#- type: emote
+#  id: Ungh
+#  name: chat-emote-name-weh
+#  category: Vocal
+#  chatMessages: [UNGHs!]
+# end starcup
+
 - type: emote
   id: Bubble
   name: chat-emote-name-bubble
@@ -55,3 +71,14 @@
     - hisses
     - hisses.
     - hisses!
+
+- type: emote
+  id: Blink
+  name: chat-emote-name-blink
+  category: General
+  icon: _Impstation/Interface/Emotes/blink.png #imp
+  chatMessages: ["chat-emote-msg-blink"]
+  chatTriggers:
+    - blink
+    - blinks
+    - blinked

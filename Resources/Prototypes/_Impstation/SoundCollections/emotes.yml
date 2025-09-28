@@ -1,5 +1,10 @@
 
 - type: soundCollection
+  id: Blinks
+  files:
+    - /Audio/_Impstation/Effects/Emotes/blink.ogg
+
+- type: soundCollection
   id: Bubbles
   files:
     - /Audio/_Impstation/Voice/Slime/s_bubble.ogg

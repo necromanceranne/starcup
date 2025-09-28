@@ -521,6 +521,11 @@
         volume: -6
     Salute:
       collection: Salutes
+    Blink: # Imp addition
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1 # DEN
     Crack: # Imp addition
       collection: Cracks
 
@@ -540,6 +545,11 @@
       path: /Audio/Voice/Diona/diona_salute.ogg
       params:
        volume: -5
+    Blink: # Imp addition
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1 # DEN
     Crack: # Imp addition
       collection: Cracks
 
@@ -562,6 +572,13 @@
       collection: Salutes
     Crack: # Imp addition
       collection: Cracks
+
+# mobs
+    Blink: # Imp addition
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1 # DEN
 
 # mobs
 - type: emoteSounds
