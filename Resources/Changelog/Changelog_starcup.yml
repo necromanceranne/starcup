@@ -1325,3 +1325,11 @@
   id: 8216
   time: '2025-09-28T19:54:54.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/421
+- author: teamstarcup-bot
+  changes:
+  - message: Added Space Disposals with a warning sign on them, and made disposals
+      pretty again.
+    type: Tweak
+  id: 8217
+  time: '2025-09-28T19:59:51.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/438
