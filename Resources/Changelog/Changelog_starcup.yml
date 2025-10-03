@@ -1359,3 +1359,10 @@
   id: 8220
   time: '2025-09-28T23:24:13.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/462
+- author: teamstarcup-bot
+  changes:
+  - message: Added wooden barrels and wooden kegs.
+    type: Add
+  id: 8221
+  time: '2025-10-03T12:09:57.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/485
