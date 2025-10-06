@@ -1373,3 +1373,10 @@
   id: 8222
   time: '2025-10-06T18:00:05.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/487
+- author: foxcurl
+  changes:
+  - message: The Security door remote can now access Brigmedic doors.
+    type: Fix
+  id: 8223
+  time: '2025-10-06T20:43:49.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/488
