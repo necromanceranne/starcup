@@ -1,0 +1,89 @@
+# Tail Markings
+- type: marking
+  id: VulpTailFennec
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin, Felinid ] # starcup: let felinids take vulp tails
+  sprites:
+    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
+      state: fennec
+#    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: not used by delta-v sprite
+#      state: fennec-tip
+
+- type: marking
+  id: VulpTailFluffy
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin, Felinid ] # starcup: let felinids take vulp tails
+  # begin starcup: tail layering fixes
+  layering:
+    fluffy: TailOversuit
+    fluffy_BACK: TailBehind
+  colorLinks:
+    fluffy_BACK: fluffy
+  sprites:
+  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy
+  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: fluffy_BACK
+  # end starcup
+
+- type: marking
+  id: VulpTailHusky
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin ]
+  sprites:
+#    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: unused by delta-v sprite
+#      state: husky
+    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
+      state: husky-inner
+    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi # starcup: use delta-v sprite
+      state: husky-outer
+
+- type: marking
+  id: VulpTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin, Felinid ] # starcup: let felinids take vulp tails
+  # begin starcup: tail layering fixes
+  layering:
+    long: TailOversuit
+    long-tip: TailOversuit
+    long_BACK: TailBehind
+    long-tip_BACK: TailBehind
+  colorLinks:
+    long_BACK: long
+    long-tip_BACK: long-tip
+  sprites:
+  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: long
+  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: long-tip
+  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: long_BACK
+  - sprite: _starcup/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    state: long-tip_BACK
+  # end starcup
+
+- type: marking
+  id: VulpTailVulp
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-tip
+
+- type: marking
+  id: VulpTailVulpFade
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin ]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-fade

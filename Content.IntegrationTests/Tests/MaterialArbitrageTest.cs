@@ -145,7 +145,66 @@ public sealed class MaterialArbitrageTest
 
         Dictionary<string, double> priceCache = new();
 
-        Dictionary<string, (Dictionary<string, int> Ents, Dictionary<string, int> Mats)> spawnedOnDestroy = new();
+        Dictionary<string, (Dictionary<string, float> Ents, Dictionary<string, float> Mats)> spawnedOnDestroy = new();
+
+        // cache the compositions of entities
+        // If the entity is refineable (i.e. glass shared can be turned into glass, we take the greater of the two compositions.
+        Dictionary<EntProtoId, Dictionary<string, int>> compositions = new();
+        foreach (var proto in protoManager.EnumeratePrototypes<EntityPrototype>())
+        {
+            Dictionary<string, int>? baseComposition = null;
+
+            if (proto.Components.ContainsKey(materialName)
+                && proto.Components.TryGetValue(compositionName, out var compositionReg))
+            {
+                var compositionComp = (PhysicalCompositionComponent)compositionReg.Component;
+                baseComposition = compositionComp.MaterialComposition;
+
+            }
+
+            if (!proto.Components.TryGetValue(refinableName, out var refinableReg))
+            {
+                if (baseComposition != null)
+                    compositions[proto.ID] = new(baseComposition);
+                continue;
+            }
+
+            var composition = new Dictionary<string, int>();
+            compositions.Add(proto.ID, composition);
+
+            var refinable = (ToolRefinableComponent)refinableReg.Component;
+            foreach (var refineResult in refinable.RefineResult)
+            {
+                if (refineResult.PrototypeId == null)
+                    continue;
+
+                var refineProto = protoManager.Index(refineResult.PrototypeId.Value);
+                if (!refineProto.Components.ContainsKey(materialName))
+                    continue;
+
+                if (!refineProto.Components.TryGetValue(compositionName, out var refinedCompositionReg))
+                    continue;
+
+                var refinedCompositionComp = (PhysicalCompositionComponent)refinedCompositionReg.Component;
+
+                // This assumes refine results do not have complex spawn behaviours like exclusive groups.
+                var quantity = refineResult.MaxAmount;
+
+                foreach (var (matId, amount) in refinedCompositionComp.MaterialComposition)
+                {
+                    composition[matId] = quantity * amount + composition.GetValueOrDefault(matId);
+                }
+            }
+
+            if (baseComposition == null)
+                continue;
+
+            // If the un-refined material quantity is greater than the refined quantity, we use that instead.
+            foreach (var (matId, amount) in baseComposition)
+            {
+                composition[matId] = Math.Max(amount, composition.GetValueOrDefault(matId));
+            }
+        }
 
         // cache the compositions of entities
         // If the entity is refineable (i.e. glass shared can be turned into glass, we take the greater of the two compositions.
@@ -217,8 +276,8 @@ public sealed class MaterialArbitrageTest
 
             var comp = (DestructibleComponent) destructible.Component;
 
-            var spawnedEnts = new Dictionary<string, int>();
-            var spawnedMats = new Dictionary<string, int>();
+            var spawnedEnts = new Dictionary<string, float>();
+            var spawnedMats = new Dictionary<string, float>();
 
             // This test just blindly assumes that ALL spawn entity behaviors get triggered. In reality, some entities
             // might only trigger a subset. If that starts being a problem, this test either needs fixing or needs to
@@ -233,14 +292,14 @@ public sealed class MaterialArbitrageTest
 
                     foreach (var (key, value) in spawn.Spawn)
                     {
-                        spawnedEnts[key] = spawnedEnts.GetValueOrDefault(key) + value.Max;
+                        spawnedEnts[key] = spawnedEnts.GetValueOrDefault(key) + (float)(value.Min + value.Max) / 2;
 
                         if (!compositions.TryGetValue(key, out var composition))
                             continue;
 
                         foreach (var (matId, amount) in composition)
                         {
-                            spawnedMats[matId] = value.Max * amount + spawnedMats.GetValueOrDefault(matId);
+                            spawnedMats[matId] = (float)(value.Min + value.Max) / 2 * amount + spawnedMats.GetValueOrDefault(matId);
                         }
                     }
                 }
@@ -451,7 +510,7 @@ public sealed class MaterialArbitrageTest
         await server.WaitPost(() => mapSystem.DeleteMap(testMap.MapId));
         await pair.CleanReturnAsync();
 
-        async Task<double> GetSpawnedPrice(Dictionary<string, int> ents)
+        async Task<double> GetSpawnedPrice(Dictionary<string, float> ents)
         {
             double price = 0;
             foreach (var (id, num) in ents)

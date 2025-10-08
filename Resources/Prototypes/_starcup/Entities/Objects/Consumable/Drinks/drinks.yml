@@ -1,7 +1,7 @@
 - type: entity
   name: old fashioned glass
   description: For stronger, meaner drinks. Holds up to 20 units.
-  parent: DrinkGlassBase
+  parent: DrinkGlass
   id: DrinkGlassOldFashioned
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   name: cocktail glass
   description: For drinks meant to be slowly savored. Holds up to 15 units.
-  parent: DrinkGlassBase
+  parent: DrinkGlass
   id: DrinkGlassCocktail
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 - type: entity
   name: highball glass
   description: For light drinks and having a good time. Holds up to 30 units.
-  parent: DrinkGlassBase
+  parent: DrinkGlass
   id: DrinkGlassHighball
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   name: maritime mug
   description: For sailors of the great river. Holds up to 30 units.
-  parent: DrinkGlassBase
+  parent: DrinkGlass
   id: DrinkGlassFeltmanLanger
   components:
   - type: Sprite
