@@ -1387,3 +1387,10 @@
   id: 8224
   time: '2025-10-08T04:43:58.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/491
+- author: KoboldCatgirl
+  changes:
+  - message: Improved Saltern Brig
+    type: Tweak
+  id: 8225
+  time: '2025-10-09T18:22:04.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/492
