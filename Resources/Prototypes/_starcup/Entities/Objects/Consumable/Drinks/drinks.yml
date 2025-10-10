@@ -94,7 +94,7 @@
 - type: entity
   name: maritime mug
   description: For sailors of the great river. Holds up to 30 units.
-  parent: DrinkGlass
+  parent: [DrinkBaseMaterialGlass, DrinkBaseCup]
   id: DrinkGlassFeltmanLanger
   components:
   - type: Sprite
@@ -113,6 +113,10 @@
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     fillBaseName: fill-
+  - type: Tag
+    tags:
+    - DrinkCup
+    - DrinkGlass
 
 - type: entity
   parent: DrinkGlass
