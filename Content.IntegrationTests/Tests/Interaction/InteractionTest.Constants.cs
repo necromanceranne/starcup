@@ -32,6 +32,7 @@ public abstract partial class InteractionTest
     protected const string Rod = "MetalRod";
 
     // Parts
+    protected const string Bin1 = "MatterBinStockPart"; // starcup: preserve matter bins
     protected const string Manipulator1 = "MicroManipulatorStockPart";
     protected const string Battery1 = "PowerCellSmall";
     protected const string Battery4 = "PowerCellHyper";
