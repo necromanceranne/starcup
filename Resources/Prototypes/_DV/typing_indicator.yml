@@ -23,4 +23,5 @@
   id: paper
   spritePath: /Textures/_DV/Effects/speech.rsi
   typingState: paper0
+  idleState: paper0 # starcup
   offset: 0, 0.1
