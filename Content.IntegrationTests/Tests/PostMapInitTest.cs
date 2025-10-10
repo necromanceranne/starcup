@@ -58,7 +58,7 @@ namespace Content.IntegrationTests.Tests
         private static readonly Dictionary<string, HashSet<EntProtoId>> DoNotMapWhitelistSpecific = new()
         {
             {"/Maps/bagel.yml", ["RubberStampMime"]},
-            {"/Maps/reach.yml", ["HandheldCrewMonitor"]},
+            {"/Maps/_starcup/reach.yml", ["HandheldCrewMonitor"]}, // starcup: moved to starcup namespace
             {"/Maps/Shuttles/ShuttleEvent/honki.yml", ["GoldenBikeHorn", "RubberStampClown"]},
             {"/Maps/Shuttles/ShuttleEvent/syndie_evacpod.yml", ["RubberStampSyndicate"]},
             {"/Maps/Shuttles/ShuttleEvent/cruiser.yml", ["ShuttleGunPerforator"]},
