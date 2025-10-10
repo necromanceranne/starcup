@@ -20,7 +20,7 @@
   speciesRestriction: [ Vulpkanin ]
   sprites:
     - sprite: _DV/Mobs/Customization/Vulpkanin/head_markings.rsi # starcup: use delta-v sprite
-      state: snout-nose
+      state: nose
 
 - type: marking
   id: VulpSnoutVulpine

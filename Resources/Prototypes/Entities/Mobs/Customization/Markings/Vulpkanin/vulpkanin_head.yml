@@ -41,8 +41,8 @@
   markingCategory: Head
   speciesRestriction: [ Vulpkanin ]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
-      state: stripes_1
+    - sprite: _DV/Mobs/Customization/Vulpkanin/head_markings.rsi # starcup: use delta-v sprite
+      state: tiger_head
 
 - type: marking
   id: VulpStripes2
@@ -50,8 +50,8 @@
   markingCategory: Head
   speciesRestriction: [ Vulpkanin ]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
-      state: stripes_2
+    - sprite: _DV/Mobs/Customization/Vulpkanin/head_markings.rsi # starcup: use delta-v sprite
+      state: tiger_face
 
 - type: marking
   id: VulpVulpine

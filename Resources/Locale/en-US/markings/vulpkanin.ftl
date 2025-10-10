@@ -1,3 +1,5 @@
+# starcup: commented most of these due to using delta sprites, also changed all vulpkanin mentions to vulpekin
+
 # Ears
 # marking-VulpEar-vulp = Vulpkanin ears (Base)
 # marking-VulpEar-vulp-inner = Vulpkanin ears (Inner)
@@ -42,7 +44,7 @@
 # marking-VulpEarShock = Vulpkanin Shock
 
 
-# # Snout
+# Snout
 
 # marking-VulpSnout-snout = Snout
 # marking-VulpSnout = Vulpkanin Snout
@@ -53,8 +55,8 @@
 # marking-VulpSnoutVulpine-vulpine = Vulpine
 # marking-VulpSnoutVulpine = Vulpkanin Vulpine
 
-# marking-VulpSnoutVulpineLines-vulpine-lines = Vulpine Lines
-# marking-VulpSnoutVulpineLines = Vulpkanin Vulpine Lines
+marking-VulpSnoutVulpineLines-vulpine-lines = Vulpine Lines
+marking-VulpSnoutVulpineLines = Vulpkanin Vulpine Lines
 
 # marking-VulpSnoutBlaze-blaze = Blaze
 # marking-VulpSnoutBlaze = Vulpkanin Blaze
@@ -62,38 +64,38 @@
 # marking-VulpSnoutMask-mask = Mask
 # marking-VulpSnoutMask = Vulpkanin Mask
 
-# marking-VulpSnoutTop-snout-top = Top
-# marking-VulpSnoutTop = Vulpkanin Snout Top
+marking-VulpSnoutTop-snout-top = Top
+marking-VulpSnoutTop = Vulpekin Snout Top
 
 # marking-VulpSnoutPatch-patch = Patch
 # marking-VulpSnoutPatch = Vulpkanin Patch
 
 
-# # Head
+# Head
 
-# marking-VulpHeadBlaze-blaze = Blaze
-# marking-VulpHeadBlaze = Vulpkanin Blaze
+marking-VulpHeadBlaze-blaze = Blaze
+marking-VulpHeadBlaze = Vulpekin Blaze
 
-# marking-VulpHeadMask-mask = Mask
-# marking-VulpHeadMask = Vulpkanin Mask
+marking-VulpHeadMask-mask = Mask
+marking-VulpHeadMask = Vulpekin Mask
 
-# marking-VulpPatch-patch = Patch
-# marking-VulpPatch = Vulpkanin Patch
+marking-VulpPatch-patch = Patch
+marking-VulpPatch = Vulpekin Patch
 
-# marking-VulpSlash-slash = Slash
-# marking-VulpSlash = Vulpkanin Slash
+marking-VulpSlash-slash = Slash
+marking-VulpSlash = Vulpekin Slash
 
-# marking-VulpStripes1-stripes_1 = Stripes
-# marking-VulpStripes1 = Vulpkanin Stripes 1
+marking-VulpStripes1-stripes_1 = Stripes
+marking-VulpStripes1 = Vulpekin Stripes 1
 
-# marking-VulpStripes2-stripes_2 = Stripes
-# marking-VulpStripes2 = Vulpkanin Stripes 2
+marking-VulpStripes2-stripes_2 = Stripes
+marking-VulpStripes2 = Vulpekin Stripes 2
 
-# marking-VulpVulpine-vulpine = Nose
-# marking-VulpVulpine = Vulpkanin Nose
+marking-VulpVulpine-vulpine = Nose
+marking-VulpVulpine = Vulpekin Nose
 
 
-# # Tails
+# Tails
 
 # marking-VulpTailFennec-fennec = Fennec tail (Base)
 # marking-VulpTailFennec-fennec-tip = Fennec tail (Tip)
@@ -112,16 +114,16 @@
 # marking-VulpTailLong-long-tip = Long tail (Tip)
 # marking-VulpTailLong = Vulpkanin Long
 
-# marking-VulpTailVulp-vulp = Vulpkanin tail (Base)
-# marking-VulpTailVulp-vulp-tip = Vulpkanin tail (Tip)
-# marking-VulpTailVulp = Vulpkanin
+marking-VulpTailVulp-vulp = Vulpekin tail (Base)
+marking-VulpTailVulp-vulp-tip = Vulpekin tail (Tip)
+marking-VulpTailVulp = Vulpekin
 
-# marking-VulpTailVulpFade-vulp = Vulpkanin tail (Base)
-# marking-VulpTailVulpFade-vulp-fade = Vulpkanin tail (Fade)
-# marking-VulpTailVulpFade = Vulpkanin (Fade)
+marking-VulpTailVulpFade-vulp = Vulpekin tail (Base)
+marking-VulpTailVulpFade-vulp-fade = Vulpekin tail (Fade)
+marking-VulpTailVulpFade = Vulpekin (Fade)
 
 
-# # Chest
+# Chest
 
 # marking-VulpBellyCrest-belly_crest = Belly
 # marking-VulpBellyCrest = Vulpkanin Belly Crest
@@ -133,13 +135,13 @@
 # marking-VulpBellyFox = Vulpkanin Belly Fox
 
 
-# # Arms
+# Arms
 
-# marking-VulpClawsHandLeft = Claws (Left Hand)
-# marking-VulpClawsHandRight = Claws (Right Hand)
+marking-VulpClawsHandLeft = Claws (Left Hand)
+marking-VulpClawsHandRight = Claws (Right Hand)
 
-# marking-VulpClawsHandLeft-claws_l_hand = Claws
-# marking-VulpClawsHandRight-claws_r_hand = Claws
+marking-VulpClawsHandLeft-claws_l_hand = Claws
+marking-VulpClawsHandRight-claws_r_hand = Claws
 
 # marking-VulpPointsCrestArmLeft = Crest (Left Arm)
 # marking-VulpPointsCrestHandLeft = Crest (Left Hand)
@@ -176,13 +178,13 @@
 # marking-VulpPointsSharpHandRight-points_sharp-hand-r = Sharp
 
 
-# # Legs
+# Legs
 
-# marking-VulpClawsFootLeft = Claws (Left Foot)
-# marking-VulpClawsFootRight = Claws (Right Foot)
+marking-VulpClawsFootLeft = Claws (Left Foot)
+marking-VulpClawsFootRight = Claws (Right Foot)
 
-# marking-VulpClawsFootLeft-claws_l_foot = Claws
-# marking-VulpClawsFootRight-claws_r_foot = Claws
+marking-VulpClawsFootLeft-claws_l_foot = Claws
+marking-VulpClawsFootRight-claws_r_foot = Claws
 
 # marking-VulpPointsCrestLegLeft = Crest (Left Leg)
 # marking-VulpPointsCrestFootLeft = Crest (Left Foot)
@@ -215,7 +217,7 @@
 # marking-VulpPointsSharpFootRight-points_sharp-foot-r = Sharp
 
 
-# # Hair
+# Hair
 
 # marking-VulpHairAdhara = Adhara
 # marking-VulpHairAnita = Anita
@@ -240,7 +242,7 @@
 # marking-VulpHairSpike = Spike
 
 
-# # Facial Hair
+# Facial Hair
 
 # marking-VulpFacialHairRuff = Ruff
 # marking-VulpFacialHairElder = Elder
