@@ -574,7 +574,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
 
 - type: entity
-  parent: [BaseSecurityContraband, ClothingUniformFoldableBase]
+  parent: [ClothingUniformBase, BaseSecurityContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSec
   name: security jumpsuit
   description: A jumpsuit made of strong material, providing robust protection.
