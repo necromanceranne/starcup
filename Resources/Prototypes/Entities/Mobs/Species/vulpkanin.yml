@@ -126,8 +126,8 @@
             state: hair
   - type: Inventory
     speciesId: vulpkanin
+    displacements:
     # begin starcup: use delta-v sprites
-#    displacements:
 #      jumpsuit:
 #        sizeMaps:
 #          32:
@@ -153,11 +153,11 @@
 #          32:
 #            sprite: Mobs/Species/Vulpkanin/displacement.rsi
 #            state: shoes
-#      head:
-#        sizeMaps:
-#          32:
-#            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-#            state: head
+      head:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vulpkanin/displacement.rsi
+            state: head
 #      neck:
 #        sizeMaps:
 #          32:
