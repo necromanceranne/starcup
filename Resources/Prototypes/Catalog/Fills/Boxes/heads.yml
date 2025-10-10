@@ -11,7 +11,7 @@
       - id: CargoSaleComputerCircuitboard
       - id: CargoShuttleConsoleCircuitboard
       - id: SalvageMagnetMachineCircuitboard
-      - id: SalvageJobBoardComputerCircuitboard
+      # - id: SalvageJobBoardComputerCircuitboard # starcup: remove salvage job board
       - id: MailTeleporterMachineCircuitboard
 
 - type: entity
@@ -49,8 +49,8 @@
   - type: StorageFill
     contents:
       - id: IDComputerCircuitboard
-      - id: FundingAllocationComputerCircuitboard
-      - id: CargoRequestServiceComputerCircuitboard
+      # - id: FundingAllocationComputerCircuitboard # starcup: remove departmental economy
+      # - id: CargoRequestServiceComputerCircuitboard # starcup: remove departmental economy
 
 - type: entity
   name: stamp box [HoP]
@@ -86,7 +86,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: CargoRequestEngineeringComputerCircuitboard
+      # - id: CargoRequestEngineeringComputerCircuitboard # starcup: remove departmental economy
       - id: AlertsComputerCircuitboard
       - id: AtmosMonitoringComputerCircuitboard
       - id: PowerComputerCircuitboard
@@ -112,7 +112,8 @@
   - type: StorageFill
     contents:
       - id: MedicalTechFabCircuitboard
-      - id: CargoRequestMedicalComputerCircuitboard
+      # - id: CargoRequestMedicalComputerCircuitboard # starcup: remove departmental economy
+      - id: MedicalRecordsComputerCircuitboard # starcup
 
 - type: entity
   name: circuit tote [RD]
@@ -125,7 +126,7 @@
       - id: CircuitImprinterMachineCircuitboard
       - id: ProtolatheMachineCircuitboard
       - id: ResearchComputerCircuitboard
-      - id: CargoRequestScienceComputerCircuitboard
+      # - id: CargoRequestScienceComputerCircuitboard # starcup: remove departmental economy
       - id: RoboticsConsoleCircuitboard
       - id: AnalysisComputerCircuitboard #Because sometimes round start artis just fucking explode on the pad.
       - id: ArtifactAnalyzerMachineCircuitboard
@@ -140,4 +141,5 @@
   - type: StorageFill
     contents:
       - id: SecurityTechFabCircuitboard
-      - id: CargoRequestSecurityComputerCircuitboard
+      # - id: CargoRequestSecurityComputerCircuitboard # starcup: remove departmental economy
+      - id: CriminalRecordsComputerCircuitboard # starcup
