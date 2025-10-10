@@ -664,7 +664,6 @@
     zeroVisible: true
   - type: Appearance
   - type: PacifismAllowedGun
-
   # begin starcup: examinable clothing
   - type: ExaminableClothing
     examineText: clothing-taser

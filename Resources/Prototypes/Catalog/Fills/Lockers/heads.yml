@@ -336,7 +336,7 @@
     - id: RubberStampHos
     - id: BoxHoSCircuitboards
     - id: WeaponDisabler
-    - id: WeaponTaser
+    # - id: WeaponTaser # starcup: remove tasers
     - id: WantedListCartridge
     - id: DrinkHosFlask
     - id: ClothingShoesBootsWinterHeadOfSecurity # DeltaV
