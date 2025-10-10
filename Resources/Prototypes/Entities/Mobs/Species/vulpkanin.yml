@@ -110,20 +110,24 @@
       visible: false
   - type: HumanoidAppearance
     species: Vulpkanin
-    undergarmentTop: UndergarmentTopTanktopVulpkanin
-    undergarmentBottom: UndergarmentBottomBoxersVulpkanin
+    # begin starcup: use delta-v sprites
+    # undergarmentTop: UndergarmentTopTanktopVulpkanin
+    # undergarmentBottom: UndergarmentBottomBoxersVulpkanin
+    # end starcup
     hideLayersOnEquip:
     - Snout
     - SnoutCover
     - HeadTop
     - HeadSide
     - FacialHair
-    markingsDisplacement:
-      Hair:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: hair
+    # begin starcup: use delta-v sprites
+    # markingsDisplacement:
+    #   Hair:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: hair
+    # end starcup
   - type: Inventory
     speciesId: vulpkanin
     displacements:
