@@ -123,7 +123,7 @@
 - type: emote
   id: HarpyPew
   name: delta-chat-emote-name-pew
-  icon: Objects/Weapons/Guns/Battery/antiquelasergun.rsi/base.png
+  icon: { sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi, state: base }
   category: Vocal
   available: false
   whitelist:
@@ -141,7 +141,7 @@
 - type: emote
   id: HarpyBang
   name: delta-chat-emote-name-bang
-  icon: Objects/Weapons/Grenades/grenade.rsi/icon.png
+  icon: { sprite: Objects/Weapons/Grenades/grenade.rsi, state: icon }
   category: Vocal
   available: false
   whitelist:
@@ -179,7 +179,7 @@
 - type: emote
   id: HarpyRev
   name: delta-chat-emote-name-rev
-  icon: Structures/Machines/grinder.rsi/grinder_beaker_attached.png
+  icon: { sprite: Structures/Machines/grinder.rsi, state: grinder_beaker_attached }
   category: Vocal
   available: false
   whitelist:
