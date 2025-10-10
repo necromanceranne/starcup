@@ -132,7 +132,7 @@
     - id: DoorRemoteService
     - id: HoPIDCard
     - id: WeaponDisabler
-    - id: ClothingEyesHudCommand
+    - id: ClothingEyesHudCommandSyndie # starcup
     - id: ClothingShoesBootsWinterHeadOfPersonel # DeltaV
 
 - type: entity
