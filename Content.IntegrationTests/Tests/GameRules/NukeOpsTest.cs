@@ -237,7 +237,6 @@ public sealed class NukeOpsTest
             await pair.RunTicksSync(increment);
             if (!entMan.HasComponent<SiliconComponent>(player)) // Goobstation - IPC
             {
-                var resp = entMan.GetComponent<RespiratorComponent>(player);
                 Assert.That(resp.SuffocationCycles, Is.LessThanOrEqualTo(resp.SuffocationCycleThreshold));
             }
             Assert.That(damage.TotalDamage, Is.EqualTo(FixedPoint2.Zero));

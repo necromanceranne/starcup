@@ -206,65 +206,6 @@ public sealed class MaterialArbitrageTest
             }
         }
 
-        // cache the compositions of entities
-        // If the entity is refineable (i.e. glass shared can be turned into glass, we take the greater of the two compositions.
-        Dictionary<EntProtoId, Dictionary<string, int>> compositions = new();
-        foreach (var proto in protoManager.EnumeratePrototypes<EntityPrototype>())
-        {
-            Dictionary<string, int>? baseComposition = null;
-
-            if (proto.Components.ContainsKey(materialName)
-                && proto.Components.TryGetValue(compositionName, out var compositionReg))
-            {
-                var compositionComp = (PhysicalCompositionComponent)compositionReg.Component;
-                baseComposition = compositionComp.MaterialComposition;
-
-            }
-
-            if (!proto.Components.TryGetValue(refinableName, out var refinableReg))
-            {
-                if (baseComposition != null)
-                    compositions[proto.ID] = new(baseComposition);
-                continue;
-            }
-
-            var composition = new Dictionary<string, int>();
-            compositions.Add(proto.ID, composition);
-
-            var refinable = (ToolRefinableComponent)refinableReg.Component;
-            foreach (var refineResult in refinable.RefineResult)
-            {
-                if (refineResult.PrototypeId == null)
-                    continue;
-
-                var refineProto = protoManager.Index(refineResult.PrototypeId.Value);
-                if (!refineProto.Components.ContainsKey(materialName))
-                    continue;
-
-                if (!refineProto.Components.TryGetValue(compositionName, out var refinedCompositionReg))
-                    continue;
-
-                var refinedCompositionComp = (PhysicalCompositionComponent)refinedCompositionReg.Component;
-
-                // This assumes refine results do not have complex spawn behaviours like exclusive groups.
-                var quantity = refineResult.MaxAmount;
-
-                foreach (var (matId, amount) in refinedCompositionComp.MaterialComposition)
-                {
-                    composition[matId] = quantity * amount + composition.GetValueOrDefault(matId);
-                }
-            }
-
-            if (baseComposition == null)
-                continue;
-
-            // If the un-refined material quantity is greater than the refined quantity, we use that instead.
-            foreach (var (matId, amount) in baseComposition)
-            {
-                composition[matId] = Math.Max(amount, composition.GetValueOrDefault(matId));
-            }
-        }
-
         // Here we get the set of entities/materials spawned when destroying an entity.
         foreach (var proto in protoManager.EnumeratePrototypes<EntityPrototype>())
         {
