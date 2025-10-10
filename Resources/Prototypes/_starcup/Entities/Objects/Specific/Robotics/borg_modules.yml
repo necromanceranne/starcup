@@ -126,7 +126,7 @@
     - type: ItemBorgModule
       hands:
       - item: CyborgEnergySword
-      - item: PinpointerNanoTrasenNuclear
+      - item: PinpointerNanotrasenNuclear
     - type: BorgModuleIcon
       icon: { sprite: _starcup/Interface/Actions/actions_borg.rsi, state: nanotrasen-esword-module }
 
