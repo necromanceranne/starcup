@@ -532,7 +532,7 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 15
+        Blunt: 25 # starcup: revert salvage damage nerf (15 > 25)
         Structural: 30
   # Short lifespan
   - type: TimedDespawn
@@ -589,8 +589,8 @@
         - MobState
     damage:
       types:
-        Blunt: 18
-        Slash: 4
+        Blunt: 20 # starcup: revert salvage damage nerf (18 > 20)
+        Slash: 5 # starcup: revert salvage damage nerf (4 > 5)
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic
     damage:
