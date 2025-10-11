@@ -685,7 +685,7 @@
   - type: StepTrigger
     requiredTriggeredSpeed: 1
   - type: TriggerOnStepTrigger
-  - type: GibOnTrigger
+  # - type: GibOnTrigger # starcup: don't make the hamster explode
   - type: EmitSoundOnTrigger
     sound:
       path: "/Audio/Animals/mouse_squeak.ogg"

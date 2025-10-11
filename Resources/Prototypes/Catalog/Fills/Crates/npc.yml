@@ -237,7 +237,7 @@
           prob: 1
           orGroup: MobHamsterHamlet
         - id: MobHamsterHamletSlippery
-          prob: 0.001
+          prob: 0.01 # starcup: increase chance since he won't explode
           orGroup: MobHamsterHamlet
 
 - type: entity
