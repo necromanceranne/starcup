@@ -1418,3 +1418,11 @@
   id: 8228
   time: '2025-10-12T06:57:25.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/393
+- author: princesspengy
+  changes:
+  - message: admin records have been renamed to OOC records, to make their intended
+      use clearer
+    type: Tweak
+  id: 8229
+  time: '2025-10-12T08:13:01.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/499
