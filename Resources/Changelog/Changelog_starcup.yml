@@ -1409,3 +1409,12 @@
   id: 8227
   time: '2025-10-12T02:32:28.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/497
+- author: Widgetbeck, FaelingDraws
+  changes:
+  - message: 'added a new type of ghostrole familiar: anomalites, strange creatures
+      summonable using a supercrit anomaly core! they''re powerful and loyal to whoever
+      holds their core, but be careful when tapping into anomalous forces...'
+    type: Add
+  id: 8228
+  time: '2025-10-12T06:57:25.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/393
