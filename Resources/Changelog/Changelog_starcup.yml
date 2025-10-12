@@ -1394,3 +1394,18 @@
   id: 8225
   time: '2025-10-09T18:22:04.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/492
+- author: KoboldCatgirl
+  changes:
+  - message: Removed paradox clones gibbing when their counter survives.
+    type: Tweak
+  id: 8226
+  time: '2025-10-11T08:44:41.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/483
+- author: princesspengy
+  changes:
+  - message: infection anomalies now deal heavy amounts of damage to the host according
+      to the anomaly type instead of gibbing them
+    type: Tweak
+  id: 8227
+  time: '2025-10-12T02:32:28.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/497
