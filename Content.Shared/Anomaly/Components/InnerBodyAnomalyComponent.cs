@@ -72,6 +72,11 @@ public sealed partial class InnerBodyAnomalyComponent : Component
     public string LayerMap = "inner_anomaly_layer";
 
     /// <summary>
+    /// imp. added for anomalites to prevent stunning
+    /// </summary>
+    [DataField]
+    public bool SkipStun;
+
     /// starcup: Defines the damage values applied to the host when the anomaly goes supercritical
     /// </summary>
     [DataField(required: true)]
