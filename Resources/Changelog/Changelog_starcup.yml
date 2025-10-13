@@ -1426,3 +1426,11 @@
   id: 8229
   time: '2025-10-12T08:13:01.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/499
+- author: Psymbiote
+  changes:
+  - message: new carp and sharkminnow variants in salvage areas, with different base
+      stats.
+    type: Add
+  id: 8230
+  time: '2025-10-13T03:11:21.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/463
