@@ -157,6 +157,12 @@
   suffix: "Salvage Ruleset"
   components:
     - type: SalvageMobRestrictions
+    # begin starcup: revert salvage damage nerf
+    # - type: MobThresholds
+    #   thresholds:
+    #     0: Alive
+    #     30: Dead
+    # end starcup
 
 - type: entity
   name: space carp
@@ -223,7 +229,7 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        150: Dead
+        150: Dead # starcup: revert salvage damage nerf (82 > 150)
     - type: Stamina
       critThreshold: 150
     - type: DamageStateVisuals
