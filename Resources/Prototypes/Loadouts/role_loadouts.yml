@@ -11,6 +11,7 @@
   - CommandEyewear # starcup
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -26,6 +27,7 @@
   - CommandEyewear # starcup
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 # Silicons
@@ -58,6 +60,7 @@
   - Survival
   - Plushies # starcup
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -76,6 +79,7 @@
   - Survival
 # starcup - DV took away bartenders' glasses and survival kit in the PDA change. not sure why. maybe we'll find out.
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -90,6 +94,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -106,6 +111,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -120,6 +126,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -134,6 +141,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -152,6 +160,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -170,6 +179,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - JanitorPlunger
   - JanitorLight # starcup: adds a choice between flashlights/lanterns. who goers there
   - GroupSpeciesBreathTool
@@ -187,6 +197,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -205,6 +216,7 @@
   - Glasses
   - SurvivalClown
   - Trinkets
+  - Accessibility # starcup
 
 - type: roleLoadout
   id: JobMime
@@ -222,6 +234,7 @@
   - Glasses
   - SurvivalMime
   - Trinkets
+  - Accessibility # starcup
 
 - type: roleLoadout
   id: JobMusician
@@ -235,6 +248,7 @@
   - MusicianEyewear # starcup
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - Instruments
   - GroupSpeciesBreathTool
 
@@ -252,6 +266,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -269,6 +284,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -283,6 +299,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 # Engineering
@@ -298,6 +315,7 @@
   - ChiefEngineerShoes
   - SurvivalExtended
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -311,6 +329,7 @@
   - Glasses # starcup
   - SurvivalExtended
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -326,6 +345,7 @@
   - StationEngineerID
   - SurvivalExtended
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -341,6 +361,7 @@
   - AtmosphericTechnicianShoes
   - SurvivalExtended
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 # Science
@@ -358,6 +379,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -375,6 +397,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -388,6 +411,7 @@
   - ScientistShoes # starcup
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 # Security
@@ -405,6 +429,7 @@
   - SecurityEyewear # starcup
   - SurvivalSecurity
   - Trinkets
+  - Accessibility # starcup
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
   - SecurityAllFirearm # DeltaV - loadouts
@@ -423,6 +448,7 @@
   - SecurityEyewear # starcup
   - SurvivalSecurity
   - Trinkets
+  - Accessibility # starcup
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
   - SecurityAllFirearm # DeltaV - loadouts
@@ -442,6 +468,7 @@
   - SecurityBelt
   - SurvivalSecurity
   - Trinkets
+  - Accessibility # starcup
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
   - SecurityFirearm # DeltaV - loadouts
@@ -459,6 +486,7 @@
   - SecurityEyewear # starcup
   - SurvivalSecurity
   - Trinkets
+  - Accessibility # starcup
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
   - SecurityRevolverFirearm # DeltaV - loadouts
@@ -476,6 +504,7 @@
   - SecurityEyewear # starcup
   - SurvivalSecurity
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathToolSecurity
 
 # Medical
@@ -494,6 +523,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -512,6 +542,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -527,6 +558,7 @@
   # starcup - deltaV coupled the PDA addition with confiscating intern's medsurvival kit and eyewear; feels like scope creep so we're leaving it out
   - SurvivalMedical
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -543,6 +575,7 @@
   - ChemistShoes # DeltaV, replaces MedicalShoes
   - SurvivalMedical
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -560,6 +593,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathToolMedical
 
 # Wildcards
@@ -571,6 +605,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -582,6 +617,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -596,6 +632,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -608,6 +645,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Accessibility # starcup
   - GroupSpeciesBreathTool
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
