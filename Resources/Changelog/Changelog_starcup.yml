@@ -1503,3 +1503,20 @@
   id: 8238
   time: '2025-10-15T05:51:17.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/508
+- author: princesspengy
+  changes:
+  - message: combat medic ids should have proper access levels
+    type: Fix
+  - message: added a few missing access levels to the id computer
+    type: Fix
+  - message: properly alphabetized the access levels on the id computer
+    type: Tweak
+  - message: clowns, mimes, and musicians now have service access
+    type: Add
+  - message: cargo technicians will now have mail access on lowpop rounds
+    type: Add
+  - message: security jobs no longer have service access
+    type: Remove
+  id: 8239
+  time: '2025-10-15T21:24:18.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/506
