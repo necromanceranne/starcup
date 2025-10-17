@@ -1535,3 +1535,13 @@
   id: 8241
   time: '2025-10-16T10:19:09.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/514
+- author: princesspengy
+  changes:
+  - message: mkcs no longer have internal encryption keys and instead spawn with radios
+      like normal
+    type: Tweak
+  - message: mkcs are now affected normally by solar flares
+    type: Fix
+  id: 8242
+  time: '2025-10-17T02:25:56.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/516
