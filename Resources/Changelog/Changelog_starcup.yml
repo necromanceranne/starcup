@@ -1545,3 +1545,12 @@
   id: 8242
   time: '2025-10-17T02:25:56.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/516
+- author: KoboldCatgirl
+  changes:
+  - message: Added the Sparot fortunetelling deck to loadouts and vendors!
+    type: Add
+  - message: Added the Sparot Book to guide readings.
+    type: Add
+  id: 8243
+  time: '2025-10-17T07:17:57.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/513
