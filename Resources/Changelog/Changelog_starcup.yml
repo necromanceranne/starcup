@@ -1584,3 +1584,11 @@
   id: 8247
   time: '2025-10-20T21:44:59.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/523
+- author: Oxdeception
+  changes:
+  - message: MKCs will no longer instantly drain replacement batteries to 0% in certain
+      situations.
+    type: Fix
+  id: 8248
+  time: '2025-10-20T22:43:56.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/524
