@@ -47,6 +47,7 @@ namespace Content.Client.Paper.UI
             typeof(HeadingTag),
             typeof(ItalicTag),
             typeof(MonoTag),
+            typeof(SizeTag), // starcup
             typeof(FontTag), // starcup
             typeof(EmojiTag), // starcup
         };
