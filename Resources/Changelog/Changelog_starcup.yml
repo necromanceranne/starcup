@@ -1592,3 +1592,12 @@
   id: 8248
   time: '2025-10-20T22:43:56.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/524
+- author: little-meow-meow
+  changes:
+  - message: Created departmental notice boards for communicating recent impactful
+      game play changes to each department, as well as a general notice board for
+      station-wide changes.
+    type: Add
+  id: 8249
+  time: '2025-10-21T06:44:23.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/522
